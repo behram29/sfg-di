@@ -1,10 +1,8 @@
 package bahram.springframework.sfgdi.controllers;
 
-import bahram.springframework.sfgdi.services.GreetingServiceImpl;
+import bahram.springframework.sfgdi.services.ConstructorGreetingService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class ProppertyInjectedControllerTest {
 
@@ -14,7 +12,7 @@ class ProppertyInjectedControllerTest {
     void setUp() {
         controller = new ProppertyInjectedController();
 
-        controller.greetingService = new GreetingServiceImpl();
+        controller.greetingService = new ConstructorGreetingService();
     }
 
     @Test
