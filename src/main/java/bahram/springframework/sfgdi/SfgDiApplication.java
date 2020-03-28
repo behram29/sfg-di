@@ -1,9 +1,6 @@
 package bahram.springframework.sfgdi;
 
-import bahram.springframework.sfgdi.controllers.ConstructorInjectedController;
-import bahram.springframework.sfgdi.controllers.MyController;
-import bahram.springframework.sfgdi.controllers.ProppertyInjectedController;
-import bahram.springframework.sfgdi.controllers.SetterInjectedController;
+import bahram.springframework.sfgdi.controllers.*;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -33,6 +30,11 @@ public class SfgDiApplication {
 
 		ConstructorInjectedController constructorInjectedController = (ConstructorInjectedController) ctx.getBean("constructorInjectedController");
 		System.out.println(constructorInjectedController.getGreeting());
+
+		System.out.println("---------------------------------Profiles-------------------------------");
+
+		I18nController i18nController = (I18nController) ctx.getBean("i18nController");
+		System.out.println(i18nController.sayHello());
 	}
 
 }
