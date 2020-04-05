@@ -1,7 +1,6 @@
 package bahram.springframework.sfgdi.controllers;
 
-import bahram.springframework.sfgdi.services.GreetingService;
-import org.springframework.beans.factory.annotation.Autowired;
+import bahram.services.GreetingService;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 

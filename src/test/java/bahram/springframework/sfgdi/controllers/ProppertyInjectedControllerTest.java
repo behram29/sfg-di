@@ -1,6 +1,6 @@
 package bahram.springframework.sfgdi.controllers;
 
-import bahram.springframework.sfgdi.services.ConstructorGreetingService;
+import bahram.services.ConstructorGreetingService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

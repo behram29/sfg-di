@@ -1,4 +1,4 @@
-package bahram.springframework.sfgdi.services;
+package bahram.services;
 
 public interface GreetingService {
     String sayGreeting();
