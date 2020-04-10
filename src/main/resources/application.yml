@@ -1,0 +1,5 @@
+bahram:
+  jms:
+    username: JMS Username
+    password: JMS Password
+    url: qwerty

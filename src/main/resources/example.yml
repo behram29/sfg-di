@@ -1,0 +1,30 @@
+
+
+name: Bahram
+
+names:
+    - Bahram
+    - Sattar
+    - Isik
+    - Sulu
+
+pound_sign: "#"
+
+book:
+    author: Joe Buck
+    publisher: random adress
+
+truth: yes
+
+another_truth: True
+
+more_true: true
+
+false: no #No, false, False
+
+string_val: "This is String"
+
+include_new_lines: |
+  asdasd asdasda asdas
+  asds qwe
+  asdasd asdas qwe fdsf
